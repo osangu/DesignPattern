@@ -1,4 +1,4 @@
-from src.chicken.chicken import Chicken
+from .chicken import Chicken
 
 
 class Fride(Chicken):

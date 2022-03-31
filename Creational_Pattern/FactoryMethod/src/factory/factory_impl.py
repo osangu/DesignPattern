@@ -1,6 +1,6 @@
-from src.factory.factory_abst import Factory
+from Creational_Pattern.FactoryMethod.src.factory.factory_abst import Factory
 
-from src.chicken.chicken_impl import Fride, Source, Barbecue
+from ..chicken.chicken_impl import Fride, Source, Barbecue
 
 
 class FactoryImpl(Factory):
