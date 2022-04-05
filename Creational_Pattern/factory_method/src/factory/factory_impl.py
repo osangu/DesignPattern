@@ -1,4 +1,4 @@
-from Creational_Pattern.FactoryMethod.src.factory.factory_abst import Factory
+from Creational_Pattern.factory_method.src.factory.factory_abst import Factory
 
 from ..chicken.chicken_impl import Fride, Source, Barbecue
 
