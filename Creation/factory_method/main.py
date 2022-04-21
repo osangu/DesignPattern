@@ -1,4 +1,4 @@
-from Creational_Pattern.FactoryMethod.src.factory.factory_impl import FactoryImpl
+from Creation.FactoryMethod.factory.factory_impl import FactoryImpl
 
 if __name__ == '__main__':
     factory_impl = FactoryImpl()
