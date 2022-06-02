@@ -6,10 +6,10 @@ class Box:
     def __init__(self):
         self.croud = []
 
-    def new_watcher(self, watcher: Watcher):
+    def enter_new_watcher(self, watcher: Watcher):
         self.croud.append(watcher)
 
-    def watcher_leave_croud(self, watcher: Watcher):
+    def leave_watcher(self, watcher: Watcher):
         self.croud.pop(
             self.croud.index(watcher)
         )
