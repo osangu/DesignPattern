@@ -9,9 +9,9 @@ if __name__ == '__main__':
 
     box = Box()
 
-    box.new_watcher(man1)
-    box.new_watcher(man2)
+    box.enter_new_watcher(man1)
+    box.enter_new_watcher(man2)
     box.open_box()
 
-    box.watcher_leave_croud(man1)
+    box.leave_watcher(man1)
     box.open_box()
